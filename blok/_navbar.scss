@@ -1,0 +1,56 @@
+.nav_wrapper {
+  width: 100%;
+  height: 770px;
+  background-color: #f7dcce;
+  margin: auto;
+
+  .nav_glav_box {
+    display: flex;
+    align-items: center;
+    gap: 210px;
+    width: 1555px;
+    height: 78px;
+    margin: auto;
+  }
+
+  .nav_item_box {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+  }
+
+  .nav_btn {
+    width: 207px;
+    border: none;
+    height: 49.82px;
+
+    background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+    border-radius: 25px;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .nav_item {
+    /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+
+    width: 518px;
+    height: 115.58px;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 161% */
+
+    color: #826f8c;
+  }
+}

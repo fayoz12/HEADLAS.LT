@@ -1,0 +1,94 @@
+.intro_wrapper {
+  width: 100%;
+  height: 692px;
+  margin: auto;
+
+  .intro_text1 {
+    width: 188px;
+    height: 23.91px;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 24px;
+    /* identical to box height, or 104% */
+
+    color: #446381;
+  }
+
+  .intro_text {
+    /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+
+    width: 518px;
+    height: 115.58px;
+
+    padding: 25px 0;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 161% */
+
+    color: #826f8c;
+  }
+
+  .intro_title {
+    /* The New VR Glasses Series */
+
+    width: 586px;
+    height: 143.47px;
+    padding: 15px 0;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 75px;
+    /* or 110% */
+
+    color: #446381;
+  }
+
+  .intro_sp1 {
+    width: 586px;
+    height: 143.47px;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 75px;
+    /* or 110% */
+
+    color: #eb8382;
+  }
+  .intro_btn {
+    width: 207px;
+    border: none;
+    height: 49.82px;
+
+    background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+    border-radius: 25px;
+    margin-top: 45px;
+
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  .intro_glav_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,432 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_wrapper {
+  width: 100%;
+  height: 770px;
+  background-color: #f7dcce;
+  margin: auto;
+}
+.nav_wrapper .nav_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 210px;
+  width: 1555px;
+  height: 78px;
+  margin: auto;
+}
+.nav_wrapper .nav_item_box {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.nav_wrapper .nav_btn {
+  width: 207px;
+  border: none;
+  height: 49.82px;
+  background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+  border-radius: 25px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #ffffff;
+}
+.nav_wrapper .nav_item {
+  /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+  width: 518px;
+  height: 115.58px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  color: #826f8c;
+}
+
+.intro_wrapper {
+  width: 100%;
+  height: 692px;
+  margin: auto;
+}
+.intro_wrapper .intro_text1 {
+  width: 188px;
+  height: 23.91px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  /* identical to box height, or 104% */
+  color: #446381;
+}
+.intro_wrapper .intro_text {
+  /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+  width: 518px;
+  height: 115.58px;
+  padding: 25px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  color: #826f8c;
+}
+.intro_wrapper .intro_title {
+  /* The New VR Glasses Series */
+  width: 586px;
+  height: 143.47px;
+  padding: 15px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+  color: #446381;
+}
+.intro_wrapper .intro_sp1 {
+  width: 586px;
+  height: 143.47px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+  color: #eb8382;
+}
+.intro_wrapper .intro_btn {
+  width: 207px;
+  border: none;
+  height: 49.82px;
+  background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+  border-radius: 25px;
+  margin-top: 45px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #ffffff;
+}
+.intro_wrapper .intro_glav_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.head_wrapper {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  background-color: #ffe5d6;
+}
+.head_wrapper .head_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.head_wrapper .head_text1 {
+  width: 188px;
+  height: 23.91px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  /* identical to box height, or 104% */
+  color: #446381;
+}
+.head_wrapper .head_title {
+  /* The New VR Glasses Series */
+  width: 586px;
+  height: 143.47px;
+  padding: 15px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+  color: #eb8382;
+}
+.head_wrapper .head_text {
+  /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+  width: 518px;
+  height: 115.58px;
+  padding: 25px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  color: #826f8c;
+}
+.head_wrapper .head_btn {
+  border: none;
+  width: 207px;
+  height: 49.82px;
+  background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+  border-radius: 25px;
+  margin-top: 45px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.main_wrapper {
+  width: 100%;
+  height: 688px;
+  background-color: #f7dcce;
+  margin: auto;
+}
+.main_wrapper .main_text1 {
+  width: 188px;
+  height: 23.91px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  /* identical to box height, or 104% */
+  color: #446381;
+}
+.main_wrapper .main_title {
+  /* The New VR Glasses Series */
+  width: 586px;
+  height: 143.47px;
+  padding: 15px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 75px;
+  /* or 110% */
+  color: #eb8382;
+}
+.main_wrapper .main_text {
+  /* It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed. */
+  width: 518px;
+  height: 115.58px;
+  padding: 25px 0;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  color: #826f8c;
+}
+.main_wrapper .main_btn {
+  border: none;
+  width: 207px;
+  height: 49.82px;
+  background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+  border-radius: 25px;
+  margin-top: 45px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #ffffff;
+}
+.main_wrapper .main_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.asd_wrapper {
+  width: 100%;
+  height: 900px;
+  margin: auto;
+  background-color: #ffe5d6;
+}
+.asd_wrapper .blok1 {
+  /* Rectangle 11 */
+  box-sizing: border-box;
+  width: 360.18px;
+  height: 566px;
+  background: #fbdacf;
+  box-shadow: 0px 20px 50px rgba(132, 148, 205, 0.08);
+  border-radius: 20px;
+}
+.asd_wrapper .blok2 {
+  /* card2 */
+  /* Rectangle 12 */
+  width: 359.49px;
+  height: 606px;
+  background: #656987;
+  border-radius: 20px;
+}
+.asd_wrapper .asd_text1 {
+  /* Our Pricing */
+  width: 121px;
+  height: 24px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  margin: auto;
+  font-size: 23px;
+  line-height: 24px;
+  /* identical to box height, or 104% */
+  color: #446381;
+}
+.asd_wrapper .asd_title {
+  /* Choose Your Plan */
+  width: 489px;
+  margin-left: 880px;
+  margin-top: 25pxb;
+  height: 144px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  /* or 110% */
+  color: #eb8382;
+}
+.asd_wrapper .asd_mini_text1 {
+  /* Basic */
+  margin-left: 120px;
+  width: 76.15px;
+  height: 34.99px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #446381;
+}
+.asd_wrapper .asd_mini_text2 {
+  /* Standard */
+  width: 127px;
+  height: 35px;
+  margin: auto;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.asd_wrapper .asd_subtitle {
+  /* $50.00 */
+  width: 149px;
+  margin: 50px 110px;
+  height: 61px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  color: #eb8382;
+}
+.asd_wrapper .asd_text {
+  /* 10 users included 2 GB of storage Email support Help center access 10 users included */
+  width: 160px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  padding: 15px 0;
+  margin: auto;
+  font-weight: 500;
+  line-height: 25px;
+  /* or 139% */
+  color: #826f8c;
+}
+.asd_wrapper .asd_text2 {
+  /* 10 users included 2 GB of storage Email support Help center access 10 users included */
+  width: 160px;
+  padding: 15px 0;
+  margin: auto;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+  color: #ffffff;
+}
+.asd_wrapper .asd_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.asd_wrapper .asd_btn {
+  /* Rectangle 1 */
+  width: 267px;
+  height: 50px;
+  /* gradient */
+  background: linear-gradient(92.81deg, #4499d9 11.62%, #6e6cc1 75.39%);
+  border-radius: 25px;
+  border: none;
+  margin: 25px 60px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  background-color: #ffe5d6;
+}
+.footer_wrapper .footer_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_wrapper .footer_text {
+  /* Copyright © 2022 HEALAS.LT. All Rights Reserved. */
+  width: 381px;
+  height: 30px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  color: #826f8c;
+}/*# sourceMappingURL=style.css.map */
